@@ -1,0 +1,17 @@
+#board{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+.box{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    background-color: #5053ee;
+    color: #f2f2f2;
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    text-align: center;
+    line-height: 200px;
+}
