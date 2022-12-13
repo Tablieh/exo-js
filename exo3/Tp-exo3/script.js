@@ -15,30 +15,31 @@ for (let j = 1; j <= 9; j++) {   //boucle sur tout les box
   var X="X";    // x
   var O="O";    // o
   current.innerHTML = "Current player : " + player;
-  
-       //switch sur la player
+  var nb=0;
+  newbox.addEventListener("click", function (){
+    newbox.innerText = player; // indeque la player O à la BOX
+    
+    switch (player) {
+      case X :
+        player = O // switch la player sur la X
+        current.innerHTML = "C'est au tour de : " + player // on modifie la balise P on mettent la curent player
+        nb++;
+        break;  
+      case O :
+        player = X // switch la player sur la X
+        current.innerHTML = "C'est au tour de : " + player // on modifie la balise P on mettent la curent player
+        nb++;
+        break;
+        
+    }
+    if(nb==9){
+      alert("Partie terminée")
+    }
+  },{once : true});
+}
 
-        newbox.addEventListener("click", function () {
 
-          
-          newbox.innerText = player; // indeque la player O à la BOX
 
-          switch (player) {
-          case X :
-            player = O // switch la player sur la X
-            current.innerHTML = "C'est au tour de : " + player // on modifie la balise P on mettent la curent player
-            break;
-
-          case O :
-            player = X // switch la player sur la X
-            current.innerHTML = "C'est au tour de : " + player // on modifie la balise P on mettent la curent player
-            break;
-          
-          }
-        });
-      
-
-      }
 
    
 
