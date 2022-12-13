@@ -34,6 +34,7 @@ for (let j = 1; j <= 9; j++) {   //boucle sur tout les box
     }
     if(nb==9){
       alert("Partie terminée")
+      location.reload()
     }
   },{once : true});
 }
