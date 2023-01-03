@@ -1,0 +1,6 @@
+Exercice 4
+A chaque pression sur la touche du bas du clavier,
+on fait apparaître un carré de 60 x 60 pixels d'une couleur aléatoire.
+A chaque pression sur la touche du haut, on enlève la dernière case ajoutée.
+Une fois la grille de 15 cases par 15 cases affichée,
+on pourra cliquer sur les cases pour changer leur couelur en noir afin de recréer le modèle de l'emoji donné en exemple (seulement les carrés noirs)

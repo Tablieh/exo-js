@@ -1,0 +1,6 @@
+Exercice 3
+Créer une grille de morpion (3 x 3 cases). Cases de 200 x 200 pixels avec un intervalle de 5px.
+A chaque clic, la case prend alternativement la valeur "X" ou "O".
+On ne pourra plus cliquer sur la case pour en changer la valeur une fois que X ou O y est placé. 
+Un message affiche le message "C'est au tour de X ou O"
+Une fois la grille remplie, un message affiche "Partie terminée".

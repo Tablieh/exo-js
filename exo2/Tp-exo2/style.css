@@ -1,0 +1,34 @@
+#board{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 200px;
+    width: 550px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 450px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: rgb(3, 102, 3);
+    font-size: 3em;
+    text-align: center;
+    line-height: 200px;
+    animation: appear 1s;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.box-valid{
+    background-color: #ccc;
+    color: #aaa;
+}
+@keyframes appear {
+    from{
+        transform: scale(0) rotate(180deg)
+    }
+    to {
+        transform: scale(1) rotate(0deg)
+    }
+}
