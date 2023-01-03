@@ -1,0 +1,20 @@
+#container{
+    background-image: url(/exo5/Tp-exo5/trade.jpg);
+    padding-top: 50px;
+    width: 980px;
+    height: 480px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+#box{
+    margin-left: 250px;
+    background-color: aliceblue;
+    width: 480px;
+    opacity: 0.7;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 0 10px 30px rgba(128, 51, 217, 0.819);
+
+}
