@@ -1,8 +1,0 @@
-Exercice 1
-Créer une page web affichant un carré 200 x 200 pixels de la couleur et un contenu texte de votre choix.
-En cliquant sur la forme, une boîte de dialogue affiche les informations suivantes : 
-- classe CSS de la forme
-- couleur du texte et couleur de fond
-- hauteur et largeur du carré
-- nom de la classe du carré (class : "carre" par exemple)
-- police et taille du texte

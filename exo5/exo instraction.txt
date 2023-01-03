@@ -1,2 +1,0 @@
-Créer une page web affichant une zone de saisie où on pourra saisir une valeur en euros afin de donner la conversion en francs (1 euro = 6.55957 francs). La conversion se fait en temps réel (pas de bouton de soumission du formulaire). Le résultat en francs est arrondi à 2 décimales.
-En cas de saisie non numérique un message affiche qu'on doit absolument saisir une valeur numérique.
